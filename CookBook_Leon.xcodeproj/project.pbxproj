@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		54C57ADA23AF21816366FF80 /* Pods_CookBook_Leon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5AB874BB1550D6A3799D7 /* Pods_CookBook_Leon.framework */; };
 		FCA151180F3CA375F17AE14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15418A183C80903A469BA /* Main.storyboard */; };
+		FCA151D51D3188F12333BCA7 /* ShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA152E872BE243A7880C2EF /* ShowVC.swift */; };
+		FCA1556929E502E5D6513284 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA152DA2FE6A8EFE37D9725 /* NetManager.swift */; };
+		FCA157AEB550D14D2546C439 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15F7379345F084BD62571 /* MainVC.swift */; };
 		FCA157B251B01A26073B73A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15265A4B0B98FBF703A80 /* LaunchScreen.storyboard */; };
 		FCA15A821366EC94F9E9FDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15522DBACFCD2DF2CC50C /* ViewController.swift */; };
 		FCA15AB1FE38C0E0FE1F050F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA15AFCD89A042C3FDBA904 /* Assets.xcassets */; };
+		FCA15B63943538D7CBB94AC5 /* MainCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1586221EF8B0EF0FA8C05 /* MainCustomCell.swift */; };
 		FCA15BEC2D32176FA2B5BD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA156C787B9881D8CEB4D3A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +24,16 @@
 		EEB5AB874BB1550D6A3799D7 /* Pods_CookBook_Leon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookBook_Leon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41B8DA4EF03F6811FB7CF98 /* Pods-CookBook_Leon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookBook_Leon.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookBook_Leon/Pods-CookBook_Leon.release.xcconfig"; sourceTree = "<group>"; };
 		FCA152087C2A741DC8A7339D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA152DA2FE6A8EFE37D9725 /* NetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
+		FCA152E872BE243A7880C2EF /* ShowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowVC.swift; sourceTree = "<group>"; };
 		FCA1542677B3AE21A53DF96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA15522DBACFCD2DF2CC50C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCA155DEB5C60A33DB961575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		FCA156C787B9881D8CEB4D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA1586221EF8B0EF0FA8C05 /* MainCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCustomCell.swift; sourceTree = "<group>"; };
 		FCA15AFCD89A042C3FDBA904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA15E0EBB8CD41C5D2FEDC4 /* CookBook_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBook_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA15F7379345F084BD62571 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				FCA156C787B9881D8CEB4D3A /* AppDelegate.swift */,
 				FCA15418A183C80903A469BA /* Main.storyboard */,
 				FCA15522DBACFCD2DF2CC50C /* ViewController.swift */,
+				FCA152DA2FE6A8EFE37D9725 /* NetManager.swift */,
+				FCA152E872BE243A7880C2EF /* ShowVC.swift */,
+				FCA15F7379345F084BD62571 /* MainVC.swift */,
+				FCA1586221EF8B0EF0FA8C05 /* MainCustomCell.swift */,
 			);
 			path = CookBook_Leon;
 			sourceTree = "<group>";
@@ -219,6 +231,10 @@
 			files = (
 				FCA15BEC2D32176FA2B5BD0E /* AppDelegate.swift in Sources */,
 				FCA15A821366EC94F9E9FDFB /* ViewController.swift in Sources */,
+				FCA1556929E502E5D6513284 /* NetManager.swift in Sources */,
+				FCA151D51D3188F12333BCA7 /* ShowVC.swift in Sources */,
+				FCA157AEB550D14D2546C439 /* MainVC.swift in Sources */,
+				FCA15B63943538D7CBB94AC5 /* MainCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
