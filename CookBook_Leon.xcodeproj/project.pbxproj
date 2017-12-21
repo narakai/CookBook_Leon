@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C57ADA23AF21816366FF80 /* Pods_CookBook_Leon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5AB874BB1550D6A3799D7 /* Pods_CookBook_Leon.framework */; };
+		FCA151180F3CA375F17AE14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15418A183C80903A469BA /* Main.storyboard */; };
+		FCA157B251B01A26073B73A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15265A4B0B98FBF703A80 /* LaunchScreen.storyboard */; };
+		FCA15A821366EC94F9E9FDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15522DBACFCD2DF2CC50C /* ViewController.swift */; };
+		FCA15AB1FE38C0E0FE1F050F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA15AFCD89A042C3FDBA904 /* Assets.xcassets */; };
+		FCA15BEC2D32176FA2B5BD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA156C787B9881D8CEB4D3A /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B4D1B99582F9E09A2EA019 /* Pods-CookBook_Leon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookBook_Leon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookBook_Leon/Pods-CookBook_Leon.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB5AB874BB1550D6A3799D7 /* Pods_CookBook_Leon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookBook_Leon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41B8DA4EF03F6811FB7CF98 /* Pods-CookBook_Leon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookBook_Leon.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookBook_Leon/Pods-CookBook_Leon.release.xcconfig"; sourceTree = "<group>"; };
+		FCA152087C2A741DC8A7339D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA1542677B3AE21A53DF96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA15522DBACFCD2DF2CC50C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA155DEB5C60A33DB961575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FCA156C787B9881D8CEB4D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA15AFCD89A042C3FDBA904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA15E0EBB8CD41C5D2FEDC4 /* CookBook_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBook_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA15B41B777C4E2F1212464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C57ADA23AF21816366FF80 /* Pods_CookBook_Leon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7B9143441B377A23307EA2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5AB874BB1550D6A3799D7 /* Pods_CookBook_Leon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8456CF162F37D2EF8FD68B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00B4D1B99582F9E09A2EA019 /* Pods-CookBook_Leon.debug.xcconfig */,
+				F41B8DA4EF03F6811FB7CF98 /* Pods-CookBook_Leon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCA15065878B853904DC3F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15E0EBB8CD41C5D2FEDC4 /* CookBook_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA156A85A22B2ECAEDDF585 /* CookBook_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				FCA155DEB5C60A33DB961575 /* Info.plist */,
+				FCA15AFCD89A042C3FDBA904 /* Assets.xcassets */,
+				FCA15265A4B0B98FBF703A80 /* LaunchScreen.storyboard */,
+				FCA156C787B9881D8CEB4D3A /* AppDelegate.swift */,
+				FCA15418A183C80903A469BA /* Main.storyboard */,
+				FCA15522DBACFCD2DF2CC50C /* ViewController.swift */,
+			);
+			path = CookBook_Leon;
+			sourceTree = "<group>";
+		};
+		FCA15E3FC95D1B17D82880A5 = {
+			isa = PBXGroup;
+			children = (
+				FCA15065878B853904DC3F2E /* Products */,
+				FCA156A85A22B2ECAEDDF585 /* CookBook_Leon */,
+				E8456CF162F37D2EF8FD68B5 /* Pods */,
+				B7B9143441B377A23307EA2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA156D3FB15CEEB5F37FA7D /* CookBook_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA1526A640EA3918FFD85B1 /* Build configuration list for PBXNativeTarget "CookBook_Leon" */;
+			buildPhases = (
+				03E815BB3DCA0048B3699A4D /* [CP] Check Pods Manifest.lock */,
+				FCA15B529EC6E1CA8019E198 /* Sources */,
+				FCA15B41B777C4E2F1212464 /* Frameworks */,
+				FCA15695C4534DD21F71609D /* Resources */,
+				F5DF6D404B9D89F0BB4F8C8E /* [CP] Embed Pods Frameworks */,
+				84E4ED1C746189EAD7BDAA8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookBook_Leon;
+			productName = CookBook_Leon;
+			productReference = FCA15E0EBB8CD41C5D2FEDC4 /* CookBook_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA159104A35E5330753FD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+				TargetAttributes = {
+					FCA156D3FB15CEEB5F37FA7D = {
+						DevelopmentTeam = FCKB72E74L;
+					};
+				};
+			};
+			buildConfigurationList = FCA155A57ECC6EC0081A8507 /* Build configuration list for PBXProject "CookBook_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15E3FC95D1B17D82880A5;
+			productRefGroup = FCA15065878B853904DC3F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA156D3FB15CEEB5F37FA7D /* CookBook_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA15695C4534DD21F71609D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA15AB1FE38C0E0FE1F050F /* Assets.xcassets in Resources */,
+				FCA157B251B01A26073B73A6 /* LaunchScreen.storyboard in Resources */,
+				FCA151180F3CA375F17AE14F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E815BB3DCA0048B3699A4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CookBook_Leon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E4ED1C746189EAD7BDAA8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookBook_Leon/Pods-CookBook_Leon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DF6D404B9D89F0BB4F8C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CookBook_Leon/Pods-CookBook_Leon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookBook_Leon/Pods-CookBook_Leon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA15B529EC6E1CA8019E198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA15BEC2D32176FA2B5BD0E /* AppDelegate.swift in Sources */,
+				FCA15A821366EC94F9E9FDFB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA15265A4B0B98FBF703A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA1542677B3AE21A53DF96E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA15418A183C80903A469BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA152087C2A741DC8A7339D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA15570C0F6C48D91C8BA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA155ADBA52CBB65DD41104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B4D1B99582F9E09A2EA019 /* Pods-CookBook_Leon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = CookBook_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.CookBook-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA1572197214B2893922E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA15F423C2F012F5028CC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41B8DA4EF03F6811FB7CF98 /* Pods-CookBook_Leon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = CookBook_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.CookBook-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA1526A640EA3918FFD85B1 /* Build configuration list for PBXNativeTarget "CookBook_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA155ADBA52CBB65DD41104 /* Debug */,
+				FCA15F423C2F012F5028CC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA155A57ECC6EC0081A8507 /* Build configuration list for PBXProject "CookBook_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA15570C0F6C48D91C8BA19 /* Debug */,
+				FCA1572197214B2893922E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA159104A35E5330753FD34 /* Project object */;
+}
